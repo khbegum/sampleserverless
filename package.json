@@ -1,0 +1,18 @@
+{
+  "name": "place-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entrypointAWS.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Susheel",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.705.0",
+    "aws-sdk-mock": "^5.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
+  }
+}
